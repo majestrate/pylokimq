@@ -1,7 +1,7 @@
 #include "common.hpp"
 
-PYBIND11_MODULE(pylokimq, m)
+PYBIND11_MODULE(pyoxenmq, m)
 {
-  lokimq::LokiMQ_Init(m);
-  lokimq::BEncode_Init(m);
+  oxenmq::OxenMQ_Init(m);
+  oxenmq::BEncode_Init(m);
 }
